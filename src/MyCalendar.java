@@ -2,10 +2,7 @@ import java.time.LocalDate;
 import java.time.chrono.HijrahChronology;
 import java.time.chrono.HijrahDate;
 import java.time.format.DateTimeFormatter;
-import java.util.Arrays;
-import java.util.Calendar;
-import java.util.Comparator;
-import java.util.Scanner;
+import java.util.*;
 import java.util.stream.Stream;
 
 public class MyCalendar {
@@ -24,7 +21,7 @@ public class MyCalendar {
     static String[] months = {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
 
     public static void main(String[] args) {
-
+        ArrayList list = new ArrayList();
 
         Scanner scan = new Scanner(System.in);
 
